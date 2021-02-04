@@ -1,4 +1,4 @@
-package academy.digitallab.store.product;
+package com.jgarcia.micro.product;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

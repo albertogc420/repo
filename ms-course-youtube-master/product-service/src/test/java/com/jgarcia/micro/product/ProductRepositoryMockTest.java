@@ -1,9 +1,9 @@
-package academy.digitallab.store.product;
+package com.jgarcia.micro.product;
 
-import academy.digitallab.store.product.entity.Category;
-import academy.digitallab.store.product.entity.Product;
-import academy.digitallab.store.product.repository.ProductRepository;
 
+import com.jgarcia.micro.product.entity.Category;
+import com.jgarcia.micro.product.entity.Product;
+import com.jgarcia.micro.product.repository.ProductRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

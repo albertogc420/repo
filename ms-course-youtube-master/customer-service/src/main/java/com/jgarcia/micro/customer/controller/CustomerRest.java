@@ -1,10 +1,10 @@
 package com.jgarcia.micro.customer.controller;
 
-import academy.digitallab.store.customer.service.CustomerService;
-import academy.digitallab.store.customer.repository.entity.Customer;
-import academy.digitallab.store.customer.repository.entity.Region;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.jgarcia.micro.customer.repository.entity.Customer;
+import com.jgarcia.micro.customer.repository.entity.Region;
+import com.jgarcia.micro.customer.service.CustomerService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

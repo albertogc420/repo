@@ -1,4 +1,4 @@
-package com.jgarcia.micro.admin.config;
+package com.jgarcia.micro.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

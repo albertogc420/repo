@@ -6,7 +6,6 @@ import com.jgarcia.micro.shopping.entity.Invoice;
 import com.jgarcia.micro.shopping.entity.InvoiceItem;
 import com.jgarcia.micro.shopping.model.Customer;
 import com.jgarcia.micro.shopping.model.Product;
-import com.jgarcia.micro.shopping.repository.InvoiceItemsRepository;
 import com.jgarcia.micro.shopping.repository.InvoiceRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,8 +21,6 @@ public class InvoiceServiceImpl implements InvoiceService {
     @Autowired
     InvoiceRepository invoiceRepository;
 
-    @Autowired
-    InvoiceItemsRepository invoiceItemsRepository;
     @Autowired
     CustomerClient customerClient;
 
